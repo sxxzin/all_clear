@@ -1,4 +1,4 @@
-# all_clear
+# All_Clear
 [Capstone] React JS 수강신청 웹서비스
 
 실행화면 
