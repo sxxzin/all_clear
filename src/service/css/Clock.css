@@ -1,0 +1,38 @@
+.Clock {
+    font-family: Helvetica;
+    text-align: center;
+  }
+  .container {
+    background: #282c34;
+    border-radius: 50%;
+    border: 1rem solid #32363e;
+    color: #61dafb;
+    /* background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%) */
+    width: 11rem;
+    height: 11rem;
+    display: table;
+    margin: 10px auto;
+  }
+  .time {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .date {
+    font-size: 0.8em;
+  }
+  .clock {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  #button{
+    width: 60px;
+    height: 60px;
+    background: #32363e;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    font-size: 10px;
+    font-weight: bold;
+  }

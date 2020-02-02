@@ -1,0 +1,76 @@
+.Login {
+    margin: auto;
+}
+.Login > form {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+}
+form > div {
+    width: 100%;
+}
+
+/* 로그인 라디오 버튼 부분 */
+#title > b {
+    width: 35%;
+}
+#title {
+    height: 35%;
+}
+#title > div {
+    float: right;
+    font-size: 13px;
+}
+#notice {
+    height: 15vh;
+}
+
+ /* 로그인 정보 입력 부분 */
+#info {
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+#info > #label, #info > #input_info {
+    width: 30%;
+}
+#label > p {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 13px;
+} /* ID, PW 라벨 */
+#input {
+    width: 45%;
+}
+#input > input {
+    width: 95%;
+    height: 20px;
+    margin-bottom: 10px;
+} /* ID, PW 입력 박스 */
+#input_info > input {
+    width: 75px;
+    height: 65px;
+    border: none;
+    cursor: pointer;
+    background: #3A3A3A;
+    color: white;
+} /* submit 버튼 */
+
+/* 로그인 안내 부분 */
+#notice {
+    display: flex;
+    flex-direction: column;
+}
+#notice > p {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+#pw_info {
+    color: #A6A6A6;
+}
+/* 일반 태그 */
+p > b {
+    color: red;
+}

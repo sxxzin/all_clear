@@ -1,0 +1,50 @@
+.SearchForm {
+  background-color: rgb(241, 241, 241);
+}
+
+
+.Search > #classify > #c1, .Search > #classify > #c2{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Search > #classify > #c1 > p{
+  font-size: 14px;
+}
+
+.Search > #classify > #c1 > #p2{
+  margin-right: 0.8%;
+}
+
+.Search > #classify > #c1 > form{
+  margin-top: 10px;
+}
+
+.Search > #classify > #c2 > p{
+  font-size: 14px;
+  margin-left: 1%;
+  margin-right: 0.5%;
+}
+
+.Search > #classify > #c2 > form{
+  margin-top: 1.25%;
+}
+
+.Search > #classify > #c2 > input{
+  margin-top: 1.2%;
+  height:10%;
+}
+
+.Search > #Search_button > input{
+  width: 85%;
+  height: 40%;
+  margin: auto;
+  border: solid 0.5px #BDBDBD;
+  cursor: pointer;
+  background: #F9F9F9;
+  font-size: 13px;
+}
+
+select {
+  height: 25px;
+}

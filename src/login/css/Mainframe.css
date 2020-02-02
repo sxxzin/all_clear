@@ -1,0 +1,75 @@
+
+.MainFrame {
+    display: flex;
+    margin: auto;
+    text-align: left;
+    width: 1100px;
+    height: 600px;
+}
+/* Menu */
+#left {
+    width: 660px;
+    display: flex;
+    margin: auto;
+    height: 100%;
+    background-image: url('../img/main.jpg');
+    background-size: cover;
+}
+#Menu {
+    margin: auto;
+    width: 70%;
+    height: 100%;
+    padding-top: 15%;
+}
+/* Login */
+#right {
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#right > img {
+    margin: auto;
+    height: 11%;
+    width: 50%;
+    cursor: pointer;
+}
+#LoginCompo {
+    margin: auto;
+}
+#right > #LoginFoot {
+    width: 60%;
+    height: 10%;
+    margin: 0 auto;
+    text-align: center;
+}
+#right > div {
+    width: 82%;
+    height: 45vh;
+}
+@media screen and (max-width: 800px) {
+    /* 모바일에 사용될 스트일 시트를 여기에 작성합니다. */
+    #right {
+       display: none;
+       width: 100%;
+    }
+    
+}
+@media screen and (max-width: 660px) {
+    #left {
+        width: 100%;
+    }
+    #Menu {
+        height: auto;
+        padding-top: 0;
+    }
+}
+@media screen and (max-height: 600px) {
+    #left {
+        height: 100%;
+    }
+    #Menu {
+        padding-top: none;
+    }
+}
+

@@ -1,0 +1,89 @@
+.Syllabus {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#modify_syllabus {
+    width: 97%;
+    padding-left: 2%;
+    height: 100%;
+    margin: auto;
+    font-size: 13px;
+    overflow-y: scroll;
+}
+#modify_syllabus > input {
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 0.5px #BDBDBD;
+    cursor: pointer;
+    background: #F9F9F9;
+    font-size: 13px;
+}
+.not {
+    display: none;
+}
+.short_info {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+}
+.short_info > p, #add_radio > div > p, #add_radio > p {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    width: 25%;
+    white-space: nowrap;
+}
+.short_info > input {
+    height: 70%;
+    margin-top: 4px;
+    width: 60%;
+    font-size: 13px;
+}
+
+#add_radio {
+    display: flex;
+    font-size: 13px;
+}
+
+#add_radio > div {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#last_order {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 13px;
+    display: none;
+}
+
+.long_info {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+.long_info > p {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    width: 25%;
+    white-space: nowrap;
+}
+.long_info > textarea {
+    width: 70%;
+    height: 100%;
+    margin-top: 4px;
+    resize: none;
+}
+
+textarea {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}

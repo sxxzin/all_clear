@@ -1,0 +1,33 @@
+.MyCart > input{
+    margin: auto;
+    width: 90%;
+}
+.MC > table {
+    width: 100%;
+    overflow-x: scroll;
+    margin: 0 auto;
+    border-collapse:collapse;
+    text-align: center;
+}
+.MC > table > tbody > tr > td{
+    width: auto;
+    height: 4vh;
+    font-size: 13px;
+    overflow:hidden;
+    white-space : nowrap;
+    text-overflow: ellipsis;
+}
+.MC > table > tbody > tr {
+    cursor: pointer;
+}
+.MC > table > tbody > tr:hover {
+    background-color: #F6F6F6;
+    text-decoration-line: underline;
+}
+.MC > table > thead > tr > th {
+    background-color: #D9E5FF;
+    color: black;
+    font-size: 13px;
+    height: 4vh;
+    white-space: nowrap;
+}

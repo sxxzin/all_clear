@@ -1,0 +1,19 @@
+.CourseFrame {
+    width: 100%;
+    height: 100%;
+}
+
+.CourseFrame > #search_course {
+    width:100%;
+    height:250px;
+}
+
+.CourseFrame > #my_course {
+    width:100%;
+    height:250px;
+}
+
+.CourseFrame > p {
+    margin-right: 60px;
+    float: right;
+}

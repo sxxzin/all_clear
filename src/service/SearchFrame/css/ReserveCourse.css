@@ -1,0 +1,33 @@
+.ReserveCourse {
+    margin: 0 auto;
+    width: 100%;
+}
+.ReserveCourse > table{
+    width: 100%;
+    overflow-x: scroll;
+    margin: 0 auto;
+    border-collapse:collapse;
+    text-align: center;
+}
+.ReserveCourse > table > tbody > tr > td{
+    width: auto;
+    height: 4vh;
+    font-size: 14px;
+    overflow:hidden;
+    white-space : nowrap;
+    text-overflow: ellipsis;
+}
+.ReserveCourse > table > tbody > tr {
+    cursor: pointer;
+}
+.ReserveCourse > table > tbody > tr:hover {
+    background-color: #F6F6F6;
+    text-decoration-line: underline;
+}
+
+.ReserveCourse > table > thead > tr > th {
+    background-color: #D9E5FF;
+    color: black;
+    height: 4vh;
+    white-space: nowrap;
+}

@@ -1,0 +1,34 @@
+.ReserveCourse > input{
+    margin:auto;
+    width: 50%;
+}
+.RC > table {
+    width: 100%;
+    overflow-x: scroll;
+    margin: 0 auto;
+    border-collapse:collapse;
+    text-align: center;
+}
+.RC > table > tbody > tr > td{
+    width: auto;
+    height: 4vh;
+    font-size: 13px;
+    overflow:hidden;
+    white-space : nowrap;
+    text-overflow: ellipsis;
+}
+
+.RC > table > tbody > tr {
+    cursor: pointer;
+}
+.RC > table > tbody > tr:hover {
+    background-color: #F6F6F6;
+    text-decoration-line: underline;
+}
+.RC > table > thead > tr > th {
+    background-color: #D9E5FF;
+    color: black;
+    font-size: 13px;
+    height: 4vh;
+    white-space: nowrap;
+}

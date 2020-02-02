@@ -1,0 +1,70 @@
+.MyCourse {
+    margin: auto;
+    margin-top: 10px;
+    width: 95%;
+    height: 220px;
+}
+
+.MyCourse > #Tab > #select {
+    background-color: white;
+    border: solid 1px lightgrey;
+    border-bottom: solid 1px white;
+    width: 50%;
+    height: 30px;
+    outline: none;
+    font-weight: bold;
+}
+
+.MyCourse > #Tab > #nonselect {
+    background-color: rgb(235, 235, 235);
+    border: solid 1px lightgrey;
+    width: 50%;
+    height: 30px;
+    outline: none;
+}
+
+#Tab > input {
+    cursor: pointer;
+}
+
+.MyCourse > #MyList {
+    border: 1px solid lightgrey;
+    border-top: solid 1px white;
+    overflow-y: scroll;
+    height: 200px;
+}
+
+#MyList > table{
+    font-size: 13px;
+    width: 100%;
+    overflow-x: scroll;
+    margin: 0 auto;
+    border-collapse:collapse;
+    text-align: center;
+}
+#MyList > table > tbody > tr > td{
+    width: auto;
+    height: 4vh;
+    overflow:hidden;
+    white-space : nowrap;
+    text-overflow: ellipsis;
+}
+#MyList > table > tbody > tr {
+    cursor: pointer;
+}
+#MyList > table > tbody > tr:hover {
+    background-color: #F6F6F6;
+    text-decoration-line: underline;
+}
+
+#MyList > table > thead > tr > th {
+    background-color: #D9E5FF;
+    color: black;
+    height: 4vh;
+    white-space: nowrap;
+}
+
+.MyCourse > p {
+    font-weight: bold;
+    margin-top: 50px;
+}

@@ -1,0 +1,72 @@
+.ManageFrame {
+    display: flex;
+    height: 100%;
+}
+#Courselist{
+    margin: 0 auto;
+    width: 45%;
+    float: left;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+#Courselist > p{
+    font-weight: bold;
+}
+#Syllabus{
+    margin: 0 auto;
+    width: 45%;
+    float: right;
+    height: 80vh;
+    display: flex;
+    background-color: #F6F6F6;
+    flex-direction: column;
+}
+#Syllabus> p{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#t_list {
+    width: 100%;
+    height: 100%;
+    border: solid 1px lightgray;
+    overflow-y: scroll;
+}
+#Courselist > div > table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+#Courselist > div > table > tbody > tr > td{
+    width: auto;
+    height: 4vh;
+    font-size: 13.8px;
+    overflow:hidden;
+    white-space : nowrap;
+    text-overflow: ellipsis;
+}
+#Courselist > div > table > tbody > tr {
+    font-size: 13.8px;
+    cursor: pointer;
+    white-space : nowrap;
+}
+#Courselist > div > table > tbody > tr:hover {
+    background-color: #F6F6F6;
+    text-decoration-line: underline;
+}
+#Courselist > div > table > thead > tr > th {
+    background-color: #D9E5FF;
+    color: black;
+    height: 4vh;
+    font-size: 14px;
+    white-space: nowrap;
+}
+#edit_syllabus {
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    border: solid 0.5px #BDBDBD;
+    cursor: pointer;
+    background: #F9F9F9;
+    font-size: 13px;
+}

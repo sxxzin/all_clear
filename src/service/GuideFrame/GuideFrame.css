@@ -1,0 +1,15 @@
+h3{  
+  text-align:center;
+}
+
+.guideimg{
+  display: flex;
+  flex-direction: column;
+}
+
+#guide{
+  border: solid 1px gray;
+  width: 90%; /* 넓이를 지정 */
+  margin: 10px auto;
+  height: auto; /* 높이를 지정 */
+}

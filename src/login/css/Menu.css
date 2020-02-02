@@ -1,0 +1,91 @@
+.Menu > button {
+    width: 75px;
+    height: 75px;
+    background: none;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    font-size: 13px;
+    position: relative;
+}
+.Menu > button > img {
+    width: 40px;
+    height: 40px;
+}
+.Menu > button:hover {
+    transform: scale(1.1);
+    transition: all ease 0.01s;
+} /* 버튼에 커서 올릴 때 효과 */
+#logout, #calendar, #help {
+    background: #5D5D5D;
+}
+#search, #cart, #sugang, #manage, #auto_manage, #set_auto {
+    background: #CC3D3D;
+}
+/* 버튼 세부 css */
+#logout > img {
+    padding-left: 7px;
+}
+#search {
+    top: 7vh;
+    float: right;
+}
+#calendar {
+    left: 3vh;
+    top: 19vh;
+}
+#help {
+    float: left;
+    top: 36vh;
+}
+#cart, #auto_manage {
+    top: 34vh;
+    left: 15vh;
+}
+#sugang, #set_auto {
+    top: 42vh;
+    right: 15vh;
+}
+#manage{
+    top: 34vh;
+    left: 15vh;
+}
+.menu_name {
+    text-decoration: none;
+    color: white;
+}
+#min_size_notice {
+    display: none;
+}
+@media screen and (max-width: 660px) {
+    .Menu > button {
+        width: 100%;
+        top: 0vh;
+        left: 0vh;
+        right: 0vh;
+        position: inherit;
+        float: none;
+        border: solid 1px black;
+        opacity: 0.9;
+        /* display: none;
+        font-size: 30px; */
+    }
+    #Menu {
+        height: auto;
+        padding-top: 0;
+    }
+    #search {
+        float: none;
+    }
+    #min_size_notice {
+        width: 100%;
+        text-align: center;
+        display: block;
+        color: white;
+        position: relative;
+        top: 2vh;
+        font-size: 13px;
+    }
+}

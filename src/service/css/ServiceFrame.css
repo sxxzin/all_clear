@@ -1,0 +1,46 @@
+.ServiceFrame {   
+  margin: auto;
+  text-align: left;
+  width: 1480px;
+  height: 760px;
+}
+
+.ServiceFrame > #top {
+  width: 100%;
+  height: 60px;
+}
+
+.ServiceFrame > #middle {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 86%;
+}
+
+.ServiceFrame > #bottom{
+  width: 100%;
+  display: flex;
+}
+
+.Footer {
+  margin: 0 auto;
+}
+
+.ServiceFrame > #middle > #navi{
+  margin: auto;
+  width: 13%;
+  height: 100%;
+}
+
+.ServiceFrame >  #middle > #service{
+  margin: auto;
+  width: 85%;
+  height: 97%;
+  overflow-y: scroll;
+}
+
+#Clock{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}

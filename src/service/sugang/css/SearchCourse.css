@@ -1,0 +1,45 @@
+.SearchCourse {
+    margin: auto;
+    width: 95%;
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.SearchCourse > #CourseList {
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+.SearchCourse > table{
+    width: 100%;
+    overflow-x: scroll;
+    margin: 0 auto;
+    border-collapse:collapse;
+    text-align: center;
+    font-size: 13px;
+}
+.SearchCourse > table > tbody > tr > td{
+    width: auto;
+    height: 4vh;
+    overflow:hidden;
+    white-space : nowrap;
+    text-overflow: ellipsis;
+}
+.SearchCourse > table > tbody > tr {
+    cursor: pointer;
+}
+.SearchCourse > table > tbody > tr:hover {
+    background-color: #F6F6F6;
+    text-decoration-line: underline;
+}
+
+.SearchCourse > table > thead > tr > th {
+    background-color: #D9E5FF;
+    color: black;
+    height: 4vh;
+    white-space: nowrap;
+}
+
+.SearchCourse > p {
+    font-weight: bold;
+}

@@ -1,0 +1,51 @@
+.Navi {
+    padding-top: 15px;
+    margin: auto;
+    height: 70%;
+}
+.Navi > #title {
+    margin: auto;
+    width: 100%;
+    height: 15%;
+    background-color: #003399;
+    
+    font-size: 20px;
+    font: bold;
+    color: white;
+    line-height: 65px;
+    text-align: center;
+}
+
+.Navi > #menu_list {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%-1px;
+    border: solid 1px lightgrey;
+}
+
+.Navi > p {
+    height: 13%;
+}
+
+#shortinfo {
+    color: black;
+}
+
+.Navi > p {
+    font-size: 12.5px;
+}
+
+#menu_list > input {
+    font-size: 14px;
+    height: 50px;
+    border: none;
+    border-top: solid 1px lightgray;
+    background: white;
+    color: rgb(7, 7, 80);
+    cursor: pointer;
+    outline: none;
+}
+#menu_list > input:hover {
+    background: #D9E5FF;
+}
